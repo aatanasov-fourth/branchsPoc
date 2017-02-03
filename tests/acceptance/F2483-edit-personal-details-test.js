@@ -17,6 +17,8 @@ const twentyOneLengthPhone = '012345678901234567890';
 const nameForm = page.modal.tabsContent.editNameForm;
 const contactForm = page.modal.tabsContent.editContactForm;
 
+
+
 moduleForAcceptance('Acceptance | F2483 edit personal details', {
   beforeEach() {
     this.id = server.create('root').id;
