@@ -973,7 +973,7 @@ test('Verify error persists when switching tabs', function(assert) {
  */
 test('Verify optional field validation is triggered by unsupported character', function(assert) {
   let contactInputObject = {
-    address2: 'adress | invalid',
+    address2: 'adress | invaliddd',
     address3: 'adress | invalid',
     county: 'Country123',
     country: '??2@',
